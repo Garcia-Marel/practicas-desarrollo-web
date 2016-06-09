@@ -1,0 +1,193 @@
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+#encabezado {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#encabezado figure {
+    margin: 0;
+}
+
+#encabezado #titulos * {
+    margin: 0;
+}
+
+#titulos h1 { font-size: 1.5em}
+#titulos h2 { font-size: 1.2em}
+#titulos h3 { font-size: 0.9em}
+#titulos h4 { font-size: 0.8em}
+
+#barra-navegacion {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../imagenes/fondo_menu.png');
+    background-position: center;
+    align-items: center;
+}
+#barra-navegacion>ul ul{
+    display: none;
+}
+#barra-navegacion>ul>li{
+    display: inline-block;
+}
+#barra-navegacion>ul ul li  {
+    display: block;
+}
+#barra-navegacion a {
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;    
+}
+
+
+
+#nota-principal {
+    height: 300px;
+    background-color: greenyellow;
+    border: 10px solid #abc;
+    box-shadow: 0 0 10px #ddd;
+}
+
+#notas-secundarias {
+    width: 700px;
+    padding: 20px;
+    float: left;
+    min-height:  260px;  
+}
+
+#publicidad {
+    width: 210px;
+    padding: 5px;
+    float: right;
+    height: 1134px;
+    background-color: pink;
+}
+
+#pie {
+    clear: both;
+    height: 150px;
+    background-color: lightsteelblue;}
+    
+}
+
+#nota_principal {
+  
+     border: 10px solid #ddd;
+    box-shadow: 0 0 10px #ddd;
+
+}
+#notas-secundarias article div p{
+    text-align: justify;
+    
+}
+#notas-secundarias article h2{
+    font-variant: small-caps;
+    line-height:0.8em;
+}
+#notas-secundarias{
+    width: 660px;
+    float: left;
+  min-height: 260px    
+    background-color: white;
+}
+#encabezado figure{
+    margin: 0;
+}
+#notas-secundarias figure span{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px;
+    border-color: aqua;
+    box-shadow:  1px 1px 3px darkgray;
+    background-color: gray;
+}
+#notas-secundarias figure{
+    position: relative;
+}
+
+#notas-secundarias article
+{
+    display: flex;
+    background-image: url(fondo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+#notas-secundarias article div{
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+#notas-secundarias a{
+    color: red;
+    text-decoration: underline;
+    
+}
+#notas-secundarias a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#sombra-imagen{
+    box-shadow: underline;
+}
+#encabezado #titulo * {
+margin: 0;
+    
+}
+.ver-mas div{
+    margin: 0 !important;
+    padding: 6px !important;
+
+}
+.ver-mas>div{
+    width: 100px;
+    height: 2em;
+    background-color:blue;
+padding: 10px;
+    display: inline-block;
+}
+.ver-mas>div>div{
+    border: 1px white;
+    
+    padding: 2px 20px;
+    width: 82px;
+    border: 1px solid white;
+}
+.ver-mas p{
+      
+    text-align: center;
+    color: white;
+    font-weight: bold}
+article{
+    display: flex;
+    
+}
+#notas-secundarias figure{
+    position: relative;
+}
+figure{
+    margin: 0 0 20px;
+}
+
+header h1,h2,h3,h4,h5,p{
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    padding: 0px;
+    width: 966px;
+  margin: 0px;
+  background: white;
+   
+}
+}
+
